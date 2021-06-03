@@ -1,40 +1,18 @@
-# STEGANOGRAPHY
-
-**Steganography is the practice of hiding a secret message inside something that is not secret.**
-
-*This program is writtin on a UNIX based machine and might not work on Windows*
+# LED DRIVER
 
 ### DESCRIPTION
-This program can encrypt a text in an image. Thus, secrets messages can be sent between people with this program by message-encrypted images.
-The same program can also decrypt the encrypted images to release the secret message.
-The program is written in c and the file format in which encrypting is supported is .bmp (bitmap file)
+
+The emergence of indoor vertical agriculture with LEDs is stimulating new technological developments to operate the LEDs efficiently. The LED controller discussed in this application note is used in vertical farming for controlling and automating the LED infrastructure. The schematic used for the LED controller, is found in the Elektor magazine. This LED driver can control up to 4 different LED strips individually. Why would you want to control 4 different LED strips individually? Well, each plant type and its growing stage prefer a specific light spectrum. So, if we give each LED strip a specific light spectrum we can then, by adjusting the intensity of each strip individually, control the total light spectrum for a specific plant type and its growing stage.
 
 ### FEATURES
-Reading .txt file and encrypting the message in .bmp image file.
-Decrypting an encrypted .bmp image file and writing the secret message in .txt file.
 
-### HOW TO INSTALL
-Download "steganography.c" and compile it.
+* PWM dimming.
+* Day/night cycles.
+* Convenient WEB interface for controlling the LEDs.
+* Constant current.
+* up to 450mA per LED strip.
+* reduced noise and pollution to grid.
 
-### HOW TO USE
-To use the program you will need to pass arguments.
+### MORE INFO?
 
-example:
-to compress: ./program -c -s <secretMessageIn.txt> -i <inputImage> -o <outputImage>   
-to decompress: ./program -d -i <inputImage> -o <secretMessageOut.txt>   
-
-  -First argument "-c" or "-d" stands for compressing("-c") or decompressing ("-d").   
-  * Choose if you want to encrypt(compress) or decrypt(decompress) a message.
-    
-  -s <filename/path>     
-  * When compressing.  --> .txt file with message to compress in image.   
-    
-  -i <filename/path>  
-  * When compressing   --> input .bmp image file to compress message in.     
-  * when decompressing --> input bmp file with compressed message. 
-    
-  -o <filename/path> 
-  * When compressing   --> output .bmp file with compressed message.    
-  * When decompressing --> ouput .txt file with compressed message.     
-
-***have fun***
+Have a look at my application note if you want more INFO about the project.
