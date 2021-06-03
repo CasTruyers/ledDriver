@@ -13,11 +13,8 @@ The emergence of indoor vertical agriculture with LEDs is stimulating new techno
 * Convenient WEB interface for controlling the LEDs.
 * Constant current.
 * up to 450mA per LED strip.
-* reduced noise and pollution to grid.
-
-### RESULT
-
-
+* reduced noise to LEDs
+* reduced pollution to grid.
 
 ### MORE INFO?
 
