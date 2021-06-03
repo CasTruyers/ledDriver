@@ -1,6 +1,6 @@
 # LED DRIVER
 
-* Demonstration video: https://vimeo.com/manage/videos/558669034*
+**Demonstration video: https://vimeo.com/manage/videos/558669034**
 
 ### DESCRIPTION
 
